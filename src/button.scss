@@ -1,4 +1,4 @@
-.btn {
+button[discord], a[discord] {
   cursor: pointer;
   border-radius: 3px;
   user-select: none;
@@ -11,7 +11,7 @@
   $colors: 'purple', 'green', 'red';
 
   @each $color in $colors {
-    &.#{$color} {
+    &[color="#{$color}"] {
       background-color: var(--#{$color});
       color: var(--#{$color}__text);
       &:hover {
@@ -20,7 +20,7 @@
       &:active {
         background-color: var(--#{$color}__active);
       }
-      &.outlined {
+      &[outlined] {
         border: .1px solid var(--#{$color});
         color: var(--#{$color});
         background: none;
