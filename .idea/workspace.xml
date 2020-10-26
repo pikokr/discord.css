@@ -28,11 +28,17 @@
       <option name="presentableId" value="Default" />
       <updated>1603692296721</updated>
       <workItem from="1603692297797" duration="20000" />
-      <workItem from="1603692330617" duration="5890000" />
+      <workItem from="1603692330617" duration="6207000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="693" y="300" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603698751611">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="693" y="300" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1603698751611" />
   </component>
 </project>
