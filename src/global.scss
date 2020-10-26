@@ -4,15 +4,17 @@ body {
   --purple__hovered: #677bc4;
   --purple__active: #5b6eae;
   --purple__text: #fff;
+  --purple__outlined_bg: #7289da3f;
 
   --red: #f04747;
   --red__hovered: #d84040;
   --red__active: #c03939;
-  --red__outlined_bg: rgba(240,71,71,.1);
+  --red__outlined_bg: #F047473f;
 
   --green: #43b581;
   --green__hovered: #40a377;
   --green__active: #3b926b;
+  --green__outlined_bg: #43b5813f;
 
   &[dark] {
     --default-background-color: #202225;
