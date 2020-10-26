@@ -8,3 +8,16 @@ steps:
     commands:
       - yarn
       - yarn build
+  - name: update-status-to-github
+    image: codehimanshu/gitdrone:1.7
+    settings:
+      drone_access_token:
+        from_secret: drone_access_token
+      github_installation_id:
+        from_secret: github_installation_id
+      github_app_id: 38899
+      private_key:
+        from_secret: private_key
+    when:
+      status: [ success, failure ]
+      event: tag
