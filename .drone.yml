@@ -2,23 +2,9 @@ kind: pipeline
 name: CI
 
 steps:
-  - name: Create Tag
-    image: jgreat/drone-build-tag
-    commands:
-      - build-tags.sh
   - name: build
+    type: docker
     image: node
     commands:
       - yarn
       - yarn build
-    when:
-      event: tag
-  - name: publish
-    image: plugins/github-release
-    settings:
-      api_key:
-        from_secret: github_token
-      files: dist/*
-    title: Discord CSS
-    when:
-      event: tag
