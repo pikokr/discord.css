@@ -10,8 +10,11 @@ steps:
   - name: Create Tag
     image: docker:git
     commands:
-      - git tag $(git rev-parse HEAD)
+      - git tag ${DRONE_BUILD_NUMBER}
       - git push origin --tags
+    when:
+      event: push
+      branch: master
   - name: publish
     image: plugins/github-release
     settings:
