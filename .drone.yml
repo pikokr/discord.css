@@ -4,8 +4,8 @@ name: CI
 steps:
   - name: Create Tag
     image: jgreat/drone-build-tag
-      commands:
-        - build-tags.sh
+    commands:
+      - build-tags.sh
   - name: build
     image: node
     commands:
