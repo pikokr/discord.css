@@ -28,7 +28,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603692296721</updated>
       <workItem from="1603692297797" duration="20000" />
-      <workItem from="1603692330617" duration="10353000" />
+      <workItem from="1603692330617" duration="12218000" />
     </task>
     <servers />
   </component>
@@ -36,9 +36,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="555" y="198" width="800" height="714" key="#Plugins" timestamp="1603714360302">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="555" y="198" width="800" height="714" key="#Plugins/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1603714360302" />
+    <state x="657" y="340" width="597" height="429" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603708609135">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="657" y="340" width="597" height="429" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1603708609135" />
     <state x="693" y="300" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603698751611">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="693" y="300" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1603698751611" />
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1603710577218">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1603710577218" />
   </component>
 </project>
