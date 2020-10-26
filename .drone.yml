@@ -11,9 +11,12 @@ steps:
       event: tag
   - name: Create Tag
     image: docker:git
+    environment:
+      GITHUB_TOKEN:
+        from_secret: github_token
     commands:
       - git tag ${DRONE_BUILD_NUMBER}
-      - git remote set-url origin https://pikokr:${github_token}@github.com/pikokr/discord.css.git
+      - git remote set-url origin https://pikokr:$(echo $GITHUB_TOKEN)@github.com/pikokr/discord.css.git
       - git push origin --tags
     when:
       event: push
