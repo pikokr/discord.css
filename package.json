@@ -6,5 +6,8 @@
   "devDependencies": {
     "parcel": "^1.12.4",
     "sass": "^1.27.0"
+  },
+  "scripts": {
+    "build": "parcel src/index.scss:dist"
   }
 }
