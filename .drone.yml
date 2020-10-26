@@ -2,6 +2,13 @@ kind: pipeline
 name: CI
 
 steps:
+  - name: build
+    image: node
+    commands:
+      - yarn
+      - yarn build
+    when:
+      event: tag
   - name: Create Tag
     image: docker:git
     commands:
@@ -11,13 +18,6 @@ steps:
     when:
       event: push
       branch: master
-  - name: build
-      image: node
-      commands:
-        - yarn
-        - yarn build
-      when:
-        event: tag
   - name: publish
     image: plugins/github-release
     settings:
