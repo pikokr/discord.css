@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../src/index.scss">
     <link rel="stylesheet" href="./global.scss">
+    <link rel="stylesheet"
+          href="./hljs-stylesheet.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>Discord UI</title>
 </head>
 <body dark>
@@ -19,12 +23,45 @@
     <a discord color="purple" class="items-spacing">Purple</a>
     <a discord color="red" class="items-spacing">Red</a>
     <a discord color="green" class="items-spacing">Green</a>
-    <div class="spacing"></div>
+    <pre><code class="html">
+            <a discord color="purple" class="items-spacing">Purple</a>
+            <a discord color="red" class="items-spacing">Red</a>
+            <a discord color="green" class="items-spacing">Green</a>
+        </code></pre>
     <h3>Outlined</h3>
     <div class="spacing"></div>
     <a discord color="purple" outlined class="items-spacing">Purple</a>
     <a discord color="red" outlined class="items-spacing">Red</a>
     <a discord color="green" outlined class="items-spacing">Green</a>
+    <pre><code class="html">
+        <a discord color="purple" outlined class="items-spacing">Purple</a>
+        <a discord color="red" outlined class="items-spacing">Red</a>
+        <a discord color="green" outlined class="items-spacing">Green</a>
+    </code></pre>
+    <h2>Input</h2>
+    <h3>Default</h3>
+    <label>
+        <input type="text" discord>
+    </label>
+    <h3>Other colors</h3>
+    <label>
+        <input type="text" discord color="purple" placeholder="Purple">
+    </label>
+    <label>
+        <input type="text" discord color="red" placeholder="Red">
+    </label>
+    <label>
+        <input type="text" discord color="green" placeholder="Green">
+    </label>
+    <h3>Full-width</h3>
+    <label>
+        <input type="text" discord full-width>
+    </label>
 </div>
+<script>
+    document.querySelectorAll('code').forEach(value => {
+        value.innerText = value.innerHTML.replace(/^\n/, '').replaceAll('    ', '').replaceAll('=""', '')
+    })
+</script>
 </body>
 </html>

@@ -8,12 +8,10 @@ button[discord], a[discord] {
   text-align: center;
   transition: background-color .15s ease-in-out;
 
-  $colors: 'purple', 'green', 'red';
-
   @each $color in $colors {
     &[color="#{$color}"] {
       background-color: var(--#{$color});
-      color: var(--#{$color}__text);
+      color: #fff;
       &:hover {
         background-color: var(--#{$color}__hovered);
       }

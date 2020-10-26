@@ -1,9 +1,13 @@
+$colors: 'purple', 'green', 'red';
+
 body {
+  --text_normal: #2e3338;
+  --input_bg: #4f545c05;
+  --input_border: #4f545c4d;
 
   --purple: #7289da;
   --purple__hovered: #677bc4;
   --purple__active: #5b6eae;
-  --purple__text: #fff;
   --purple__outlined_bg: #7289da3f;
 
   --red: #f04747;
@@ -20,7 +24,5 @@ body {
     --default-background-color: #202225;
     --default-text-color: #fff;
   }
-  background: var(--default-background-color);
-  color: var(--default-text-color);
 }
 

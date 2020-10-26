@@ -1,2 +1,23 @@
-.input {
+input[discord] {
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid var(--input_border);
+  color: var(--text_normal);
+  background-color: var(--input_bg);
+  outline: none;
+  transition: border-color .2s ease-in-out;
+  padding: 10px;
+  height: 40px;
+  &:focus {
+    border-color: var(--purple);
+  }
+
+  @each $color in $colors {
+    &[color="#{$color}"]:focus {
+      border-color: var(--#{$color});
+    }
+  }
+  &[full-width] {
+    width: calc(100% - 20px);
+  }
 }

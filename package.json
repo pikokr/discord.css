@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "marked": "^1.2.2",
     "parcel": "^1.12.4",
     "sass": "^1.27.0"
   },

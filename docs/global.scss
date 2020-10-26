@@ -1,9 +1,16 @@
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px;
+  margin: 0;
+}
+
+body {
+  @media all and (prefers-color-scheme: dark) {
+    background: var(--default-background-color);
+    color: var(--default-text-color);
+  }
 }
 
 html, body {
-  margin: 0;
+  margin: 10px;
 }
 
 .docs-container {
@@ -14,6 +21,4 @@ html, body {
   .spacing {
     height: 20px;
   }
-
-  padding: 0 15px;
 }
