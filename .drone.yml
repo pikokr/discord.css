@@ -14,5 +14,3 @@ steps:
         from_secret: github_token
       files: dist/*
     title: Discord CSS
-    when:
-      event: tag
