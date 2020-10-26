@@ -1,0 +1,36 @@
+.btn {
+  cursor: pointer;
+  border-radius: 3px;
+  user-select: none;
+  outline: none;
+  border: none;
+  padding: 7px 16px;
+  text-align: center;
+  transition: background-color .15s ease-in-out;
+
+  $colors: 'purple', 'green', 'red';
+
+  @each $color in $colors {
+    &.#{$color} {
+      background-color: var(--#{$color});
+      color: var(--#{$color}__text);
+      &:hover {
+        background-color: var(--#{$color}__hovered);
+      }
+      &:active {
+        background-color: var(--#{$color}__active);
+      }
+      &.outlined {
+        border: .1px solid var(--#{$color});
+        color: var(--#{$color});
+        background: none;
+        &:hover {
+          background: none;
+        }
+        &:active {
+          background-color: var(--#{$color}__outlined_bg);
+        }
+      }
+    }
+  }
+}

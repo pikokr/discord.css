@@ -1,0 +1,24 @@
+body {
+
+  --purple: #7289da;
+  --purple__hovered: #677bc4;
+  --purple__active: #5b6eae;
+  --purple__text: #fff;
+
+  --red: #f04747;
+  --red__hovered: #d84040;
+  --red__active: #c03939;
+  --red__outlined_bg: rgba(240,71,71,.1);
+
+  --green: #43b581;
+  --green__hovered: #40a377;
+  --green__active: #3b926b;
+
+  &[dark] {
+    --default-background-color: #202225;
+    --default-text-color: #fff;
+  }
+  background: var(--default-background-color);
+  color: var(--default-text-color);
+}
+
