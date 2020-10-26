@@ -8,6 +8,6 @@
     "sass": "^1.27.0"
   },
   "scripts": {
-    "build": "parcel build src/index.scss:dist"
+    "build": "parcel build src/index.scss"
   }
 }
