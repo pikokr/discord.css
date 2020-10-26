@@ -8,13 +8,7 @@ steps:
       - yarn
       - yarn build
   - name: Create Tag
-    image: docker:git
-    commands:
-      - git tag ${DRONE_BUILD_NUMBER}
-      - git push origin --tags
-    when:
-      event: push
-      branch: master
+    image: gempesaw/drone-git-tag
   - name: publish
     image: plugins/github-release
     settings:
