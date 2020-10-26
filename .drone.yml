@@ -13,14 +13,6 @@ steps:
       - yarn build
     when:
       event: tag
-  - name: Create Tag
-    image: docker:git
-    commands:
-      - git tag ${DRONE_BUILD_NUMBER}
-      - git push origin --tags
-    when:
-      event: push
-      branch: master
   - name: publish
     image: plugins/github-release
     settings:
