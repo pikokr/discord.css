@@ -13,7 +13,7 @@ steps:
     image: docker:git
     commands:
       - git tag ${DRONE_BUILD_NUMBER}
-      - git remote set-url origin https://pikokr:repo-token@github.com/pikokr/discord.css.git
+      - git remote set-url origin https://pikokr:${github_token}@github.com/pikokr/discord.css.git
       - git push origin --tags
     when:
       event: push
