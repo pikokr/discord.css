@@ -1,9 +1,12 @@
 function updateDark() {
     if (!localStorage.getItem('dark') || localStorage.getItem('dark') === 'true') {
         document.body.setAttribute('dark', '')
-        document.querySelector('#theme-switcher').innerHTML
+        document.querySelector('#theme-switcher').innerHTML = 'Switch to Light Mode'
     }
-    else if (localStorage.getItem('dark') === 'false') document.body.removeAttribute('dark')
+    else {
+        document.body.removeAttribute('dark')
+        document.querySelector('#theme-switcher').innerHTML = 'Switch to Dark Mode'
+    }
 }
 
 window.addEventListener('DOMContentLoaded', () => {

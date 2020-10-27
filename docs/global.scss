@@ -3,10 +3,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  @media all and (prefers-color-scheme: dark) {
-    background: var(--default-background-color);
-    color: var(--default-text-color);
-  }
   &[dark] {
     background: var(--default-background-color);
     color: #fff;

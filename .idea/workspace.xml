@@ -20,16 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cff11c01-ba21-4dea-8523-acdda0a4316d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/hljs-stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord-css.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord-css.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +65,7 @@
       <workItem from="1603692297797" duration="20000" />
       <workItem from="1603692330617" duration="12218000" />
       <workItem from="1603717089855" duration="4729000" />
+      <workItem from="1603752906960" duration="2138000" />
     </task>
     <servers />
   </component>
@@ -88,6 +82,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="198" width="800" height="714" key="#Plugins" timestamp="1603714360302">
