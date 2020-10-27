@@ -7,6 +7,10 @@ body {
     background: var(--default-background-color);
     color: var(--default-text-color);
   }
+  &[dark] {
+    background: var(--default-background-color);
+    color: #fff;
+  }
 }
 
 html, body {

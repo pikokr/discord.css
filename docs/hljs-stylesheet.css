@@ -12,6 +12,11 @@
     }
 }
 
+body[dark] .hljs {
+    background: #2f3136 !important;
+    border: 1px solid #202225 !important;
+}
+
 
 
 .hljs {
