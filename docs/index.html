@@ -10,6 +10,9 @@
     <link rel="stylesheet"
           href="./hljs-stylesheet.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify-html.js"></script>
+
     <script>hljs.initHighlightingOnLoad();</script>
     <title>Discord UI</title>
 </head>
@@ -54,14 +57,23 @@
     <label>
         <input type="text" discord color="green" placeholder="Green">
     </label>
+    <pre><code class="html">
+        <label>
+            <input type="text" discord color="purple" placeholder="Purple">
+        </label>
+    </code></pre>
     <h3>Full-width</h3>
     <label>
         <input type="text" discord full-width>
     </label>
+    <pre><code class="html">
+        <label>
+        <input type="text" discord full-width>
+    </label></code></pre>
 </div>
 <script>
     document.querySelectorAll('code').forEach(value => {
-        value.innerText = value.innerHTML.replace(/^\n/, '').replaceAll('    ', '').replaceAll('=""', '')
+        value.innerText = html_beautify(value.innerHTML.replace(/^\n/, '').replaceAll('    ', '').replaceAll('=""',''))
     })
 </script>
 <script src="./script.js"></script>
