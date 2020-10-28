@@ -72,7 +72,49 @@
         <input type="text" discord full-width placeholder="Full Width!">
     </label></code></pre>
     <h2>Avatar</h2>
-    <img src="./assets/img/avatar__default.png" alt="Avatar" discord avatar data-size="50">
+    <table>
+        <tr>
+            <th>
+                Default
+            </th>
+            <th>
+                Custom Size
+            </th>
+            <th>
+                With Status Badge(color only, Online, Idle, DND, Offline)
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <img src="./assets/img/avatar__default.png" alt="Avatar" discord avatar>
+            </td>
+            <td>
+                <img src="./assets/img/avatar__default.png" alt="Avatar" discord avatar size="100px">
+            </td>
+            <td>
+                <div discord avatar-wrapper>
+                    <img src="./assets/img/avatar__default.png" alt="Avatar" discord avatar size="100px">
+                    <span status="online"></span>
+                </div>
+                <div discord avatar-wrapper>
+                    <img src="./assets/img/avatar__default.png" alt="Avatar" discord avatar size="100px">
+                    <span status="idle"></span>
+                </div>
+                <div discord avatar-wrapper>
+                    <img src="./assets/img/avatar__default.png" alt="Avatar" discord avatar size="100px">
+                    <span status="dnd"></span>
+                </div>
+                <div discord avatar-wrapper>
+                    <img src="./assets/img/avatar__default.png" alt="Avatar" discord avatar size="100px">
+                    <span status="offline"></span>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <pre><code class="html">
+        <img src="./assets/img/avatar__default.png" alt="Avatar" discord avatar>
+        <img src="./assets/img/avatar__default.png" alt="Avatar" discord avatar size="100px">
+    </code></pre>
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', () => {

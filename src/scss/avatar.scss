@@ -2,3 +2,20 @@ img[discord][avatar] {
   border-radius: 50%;
   user-select: none;
 }
+
+div[discord][avatar-wrapper] {
+  position: relative;
+  display: inline-block;
+  span[status] {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    $statuses: 'online' #10de4a, 'idle' #ff7700, 'dnd' #ff0000, 'offline' #666666;
+    @each $status, $color in $statuses {
+      &[status="#{$status}"] {
+        background: $color;
+      }
+    }
+  }
+}
