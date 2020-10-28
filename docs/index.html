@@ -5,13 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../src/index.scss">
+    <link rel="stylesheet" href="../src/scss/index.scss">
     <link rel="stylesheet" href="./global.scss">
     <link rel="stylesheet"
           href="./hljs-stylesheet.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify-html.js"></script>
+    <meta name="description" content="Discord UI Written in CSS">
 
     <script>hljs.initHighlightingOnLoad();</script>
     <title>Discord UI</title>
@@ -70,12 +71,17 @@
         <label>
         <input type="text" discord full-width placeholder="Full Width!">
     </label></code></pre>
+    <h2>Avatar</h2>
+    <img src="./assets/img/avatar__default.png" alt="Avatar" discord avatar data-size="50">
 </div>
 <script>
-    document.querySelectorAll('code').forEach(value => {
-        value.innerText = html_beautify(value.innerHTML.replace(/^\n/, '').replaceAll('    ', '').replaceAll('=""',''))
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('code').forEach(value => {
+            value.innerText = html_beautify(value.innerHTML.replace(/^\n/, '').split('    ').join('').split('=""').join(' '))
+        })
     })
 </script>
 <script src="./script.js"></script>
+<script src="../src/ts/index.ts"></script>
 </body>
 </html>
