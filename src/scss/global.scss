@@ -1,6 +1,8 @@
 $colors: 'purple', 'green', 'red';
 
 body {
+  --border: #e3e5e8;
+
   --scrollbar-auto-track: #f2f2f2;
   --scrollbar-thin-thumb: rgba(79,84,92,0.3);
   --scrollbar-thin-track: transparent;
@@ -38,6 +40,8 @@ body {
     --scrollbar-auto-track: #2e3338;
     --scrollbar-auto-scrollbar-color-thumb: #202225;
     --scrollbar-auto-scrollbar-color-track: #2f3136;
+
+    --border: #202225;
   }
 }
 
