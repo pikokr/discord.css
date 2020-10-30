@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cff11c01-ba21-4dea-8523-acdda0a4316d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/button.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <workItem from="1603926628642" duration="2427000" />
       <workItem from="1603956338302" duration="6771000" />
       <workItem from="1604012286980" duration="195000" />
-      <workItem from="1604013106719" duration="975000" />
+      <workItem from="1604013106719" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: Add code example to alert">
       <created>1603971305147</created>
