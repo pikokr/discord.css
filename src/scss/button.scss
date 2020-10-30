@@ -8,15 +8,25 @@ button[discord], a[discord] {
   text-align: center;
   transition: background-color .15s ease-in-out;
 
+  &[disabled] {
+    cursor: default;
+  }
+
   @each $color in $colors {
     &[color="#{$color}"] {
       background-color: var(--#{$color});
       color: #fff;
       &:hover {
         background-color: var(--#{$color}__hovered);
+        &[disabled] {
+          background-color: var(--#{$color});
+        }
       }
       &:active {
         background-color: var(--#{$color}__active);
+        &[disabled] {
+          background-color: var(--#{$color});
+        }
       }
       &[outlined] {
         border: .1px solid var(--#{$color});
@@ -27,6 +37,9 @@ button[discord], a[discord] {
         }
         &:active {
           background-color: var(--#{$color}__outlined_bg);
+          &[disabled] {
+            background-color: transparent;
+          }
         }
       }
     }

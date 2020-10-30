@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cff11c01-ba21-4dea-8523-acdda0a4316d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/button.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,9 @@
       <workItem from="1603752906960" duration="3558000" />
       <workItem from="1603887258892" duration="3746000" />
       <workItem from="1603926628642" duration="2427000" />
-      <workItem from="1603956338302" duration="5191000" />
+      <workItem from="1603956338302" duration="6771000" />
+      <workItem from="1604012286980" duration="195000" />
+      <workItem from="1604013106719" duration="975000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: Add code example to alert">
       <created>1603971305147</created>
@@ -82,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603971305147</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feat: Add title to alert example">
+      <created>1603971349335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603971349335</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +113,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feat: Add code example to alert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add code example to alert" />
+    <MESSAGE value="Feat: Add title to alert" />
+    <MESSAGE value="Feat: Add title to alert example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add title to alert example" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="198" width="800" height="714" key="#Plugins" timestamp="1603714360302">
